@@ -9,7 +9,6 @@
 		<p>
 			Usuario Autenticado como : 
 			<span sec:authentication="principal.username" th:inline="text"></span>
-			<span sec:authorize="hasRole('ROLE_PROFESSOR')">Profesor</span>
 		</p>
 
 		<p>Notas del usuario</p>
