@@ -26,7 +26,7 @@ public class NotaneitorTests {
 	// "/Applications/Firefox.app/Contents/MacOS/firefox-­‐bin";
 	// static String Geckdriver024 = "/Users/delacal/selenium/geckodriver024mac";
 	// Común a Windows y a MACOSX
-	static WebDriver driver = getDriver(PathFirefox65, Geckdriver024);
+	public static WebDriver driver = getDriver(PathFirefox65, Geckdriver024);
 	static String URL = "http://localhost:8090";
 
 	public static WebDriver getDriver(String PathFirefox, String Geckdriver) {
