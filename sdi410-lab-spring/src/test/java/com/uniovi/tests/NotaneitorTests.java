@@ -18,8 +18,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class NotaneitorTests {
 	// En Windows (Debe ser la versión 65.0.1 y desactivar las actualizacioens
 	// automáticas)):
-	static String PathFirefox65 = "C:\\Program Files\\Mozilla Firefox\\firefox.exe";
-	static String Geckdriver024 = "C:\\Users\\polec\\Downloads\\PL-SDI-Sesión5-material\\PL-SDI-Sesión5-material\\geckodriver024win64.exe";
+	public static String PathFirefox65 = "C:\\Program Files\\Mozilla Firefox\\firefox.exe";
+	public static String Geckdriver024 = "C:\\Users\\polec\\Downloads\\PL-SDI-Sesión5-material\\PL-SDI-Sesión5-material\\geckodriver024win64.exe";
 	// En MACOSX (Debe ser la versión 65.0.1 y desactivar las actualizacioens
 	// automáticas):
 	// static String PathFirefox65 =
