@@ -50,6 +50,7 @@ public class NotaneitorTests {
 
 	// Antes de la primera prueba
 	@BeforeClass
+	
 	static public void begin() {
 	}
 
