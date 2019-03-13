@@ -31,34 +31,4 @@ public class PO_HomeView extends PO_View {
 		// Esperamos a que se cargue el saludo de bienvenida en Español
 		PO_HomeView.checkWelcome(driver, locale1);
 	}
-
-	// PR01. Acceder a la página principal /
-	@Test
-	public void PR01() {
-		PO_HomeView.checkWelcome(
-				NotaneitorTests.getDriver(NotaneitorTests.PathFirefox65, NotaneitorTests.Geckdriver024),
-				PO_Properties.getSPANISH());
-	}
-
-	// PR02. OPción de navegación. Pinchar en el enlace Registro en la página home
-	@Test
-	public void PR02() {
-		PO_HomeView.clickOption(NotaneitorTests.driver, "signup", "class", "btn btn-­‐primary");
-	}
-
-	// PR03. OPción de navegación. Pinchar en el enlace Identificate en la página
-	// home
-	@Test
-	public void PR03() {
-		PO_HomeView.clickOption(NotaneitorTests.driver, "login", "class", "btn btn-­‐primary");
-	}
-
-	// PR04. OPción de navegación. Cambio de idioma de Español a Ingles y vuelta a
-	// Español
-	@Test
-	public void PR04() {
-		PO_HomeView.checkChangeIdiom(NotaneitorTests.driver, "btnSpanish", "btnEnglish", PO_Properties.getSPANISH(),
-				PO_Properties.getENGLISH());
-		// SeleniumUtils.esperarSegundos(driver, 2);
-	}
 }
